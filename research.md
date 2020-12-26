@@ -21,3 +21,6 @@ https://css-tricks.com/animating-with-clip-path/
 https://medium.com/@gordonnl/stylised-line-animations-ded23320ffe5
 https://dev.to/martyhimmel/animating-sprite-sheets-with-javascript-ag3
 https://codepen.io/martyhimmel/pen/drbpvZ
+https://medium.com/@gordonnl/stylised-line-animations-ded23320ffe5
+https://codepen.io/martyhimmel/pen/drbpvZ
+https://dev.to/martyhimmel?signin=true
