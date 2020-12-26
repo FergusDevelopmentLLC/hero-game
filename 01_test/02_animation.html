@@ -17,9 +17,9 @@
     
     <script>
       
-      const scale = 4
-      const width = 16
-      const height = 18
+      const scale = 1
+      const width = 128
+      const height = 128
       const scaledWidth = scale * width
       const scaledHeight = scale * height
       const cycleLoop = [0, 1, 0, 2]
@@ -28,19 +28,14 @@
       let currentDirection = 0
 
       const drawFrame = (frameX, frameY, canvasX, canvasY) => {
-        console.log('frameX', frameX)
-        console.log('frameY', frameY)
-        console.log('canvasX', canvasX)
-        console.log('canvasY', canvasY)
-        
-        ctx.drawImage(img, frameX * width, frameY * height, width, height, canvasX, canvasY, scaledWidth, scaledHeight)
+        ctx.drawImage(img, frameX * width, 0, width, height, canvasX, canvasY, scaledWidth, scaledHeight)
       }
 
       const step = () => {
 
         frameCount++
 
-        if (frameCount < 15) {
+        if (frameCount < 3) {
           window.requestAnimationFrame(step)
           return
         }
@@ -73,7 +68,7 @@
       let ctx = canvas.getContext('2d')
 
       let img = new Image()
-      img.src = 'https://opengameart.org/sites/default/files/Green-Cap-Character-16x18.png'
+      img.src = 'colossus.png'
       img.onload = () => init()
       
       
