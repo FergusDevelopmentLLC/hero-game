@@ -24,3 +24,7 @@ https://codepen.io/martyhimmel/pen/drbpvZ
 https://medium.com/@gordonnl/stylised-line-animations-ded23320ffe5
 https://codepen.io/martyhimmel/pen/drbpvZ
 https://dev.to/martyhimmel?signin=true
+
+https://stackoverflow.com/questions/30227466/combine-several-images-horizontally-with-python
+https://stackoverflow.com/questions/5324647/how-to-merge-a-transparent-png-image-with-another-image-using-pil
+https://pillow.readthedocs.io/en/stable/reference/Image.html?highlight=paste#PIL.Image.Image.paste
